@@ -66,11 +66,11 @@
 
 
 
-\noindent  \textbf{ \LARGE{\setlength\itemsep{0pt}Paper Title}}
+\noindent  \textbf{ \LARGE{\setlength\itemsep{0pt}A Proposal for Analog Front End Design of Contactless Smart Card-A based on Standard ISO/IEC14443-2}}
 
 \vspace{0.2cm}
 
-ABC\footnote[*]{Corresponding Author Name, Address, Contact No \& Email}${}^{,1}$, ABC${}^{2}$, ABC${}^{3}$   (Use complete Author's name not abbreviated)
+ABC\footnote[*]{Corresponding Author Name, Address, Contact No \& Email}${ABC}^{,1}$, ABC${}^{2}$, ABC${}^{3}$   (Use complete Author's name not abbreviated)
 
 \vspace{0.2cm}
  \textit{${}^{1}$Author's Affiliation, Department, Institute, ZIP Code, Country}
@@ -86,7 +86,7 @@ ABC\footnote[*]{Corresponding Author Name, Address, Contact No \& Email}${}^{,1}
 \begin{tabular}{p{1.7in} p{0.1in} p{4.1in} }
 A R T I C L E  I N F O &  & A B S T R A C T \\ 
  \cline{1-1}  \cline{3-3} \setlength\itemsep{0pt} \vspace{-0.1cm}
-\textit{Article history:\newline Received: \newline Accepted:  \newline Online:  \rule{1.78in}{0.5pt} Keywords: \newline Key 1\newline Key 2\newline Key 3} \newline \newline  & & \vspace{-0.1cm} \textit{The abstract should provide clear information about the research and the results obtained, and should not exceed 300 words. The abstract should not contain citations. The abstract should provide clear information about the research and the results obtained, and should not exceed 300 words. The abstract should not contain citations.The abstract should provide clear information about the research and the results obtained, and should not exceed 300 words. The abstract should not contain citations. }\\
+\textit{Article history:\newline Received: \newline Accepted:  \newline Online:  \rule{1.78in}{0.5pt} Keywords: \newline Key 1\newline Key 2\newline Key 3} \newline \newline  & & \vspace{-0.1cm} \textit{This paper describes a set of Analog Front End design for contactless smart cards which complies with ISO 14443-2 Type A. It has been implemented in two different technologies: Globalfoundries 130nm (GF130) and On Semiconductor 500nm (ONC5). The design and implementation of both integrated circuits (IC) were manufactured by MOSIS through the Educational Program. The Analog Front End operates at 13.56MHz with data rate 106kbps. This paper will show the simulation using Synopsys HSPICE and the corresponding test for the CMOS process GF130. }\\
  \cline{1-1}  \cline{3-3}
 \end{tabular}
 
@@ -99,9 +99,20 @@ A R T I C L E  I N F O &  & A B S T R A C T \\
 
 \section{ Introduction}
 
-
-This template, modified in LATEX provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. All standard paper components have been specified for three reasons: (1) ease of use when formatting individual papers, (2) automatic compliance to electronic requirements that facilitate the concurrent or later production of electronic products, and (3) conformity of style throughout a conference proceedings. Margins, column widths, line spacing, and type styles are built-in; examples of the type styles are provided throughout this document and are identified in italic type, within parentheses, following the example. Some components, such as multi-leveled equations, graphics, and tables are not prescribed, although the various table text styles are provided. The formatter will need to create these components, incorporating the applicable criteria that follow.
-
+In recent years Radio Frequency Identification systems
+(RFID) \cite{c1} have become very popular in many service industries,
+purchasing and distribution logistics, industry, manufacturing
+companies and material flow systems. In contrast
+with earlier techniques like barcodes, RFID is more favored
+because of its longer operation distance, higher precision,
+faster processing speed and storage capabilities. With it we
+can identify objects and store some data in a single silicon
+chip. This paper demonstrates the RF circuits design proposal
+of contactless IC card which comply with ISO/IEC14443-2 \cite{c2}
+and validates the topologies with measurements. This design
+satisfies the performance request with the neat circuits, and has
+been implemented with 0.13um and 0.5um CMOS technology
+successfully.
 
 \section{ Ease of Use}
 
@@ -268,21 +279,48 @@ Citations in the text should be identified by numbers in square brackets. The li
 
 \hspace{-1cm} \textbf{Conference Papers:}
 
-\bibitem{conf1} 
-I. Hadade, T. M. Jones, F. Wang, L. di Mare, ``Software Prefetching for Unstructured Mesh Applications" in 2018 IEEE/ACM 8th Workshop on Irregular Applications: Architectures and Algorithms (IA3), Dallas, TX, USA, 2018. https://doi.org/10.1109/IA3.2018.00009
+\bibitem{c3}
+	Valentin Chesaru and Antonio Pieleanu and Claudius Dan and Mircea Bodea, RFID 13.56MHz TRANSPONDER IC FRONTEND, 2010.
 
-\hspace{-1cm} \textbf{Thesis:}
+\bibitem{c4}
+	Jie Tian and Zhongchen Yu, Analog Front End Design of Contactless Smart Card, 2012.
 
-\bibitem{thesis} 
-	H. Lihua, ``Analysis of Fuel Cell Generation System Application", Ph.D Thesis, Chongqing University, 2005.
+\bibitem{c5}
+	Sebastián Pazos, Fernando Aguirre, Tomás Mazur, G. Peretti and E. Romero, Evaluación de la calidad de TRAM en la detección de fallas de fabricación en circuitos integrados analógicos fabricados en tecnología CMOS de 500nm, Universidad Tecnológica Nacional, Facultad Regional Buenos Aires y Universidad Tecnológica Nacional, Facultad Regional Villa María. 2015.
+
+\bibitem{c6}
+	Munish Kumar, Parminder Kaur, Sheenu Thapar, Design of CMOS Schmitt Trigger, International Journal of Engineering and Innovative Technology (IJEIT). 2012.
+
+\bibitem{c10}
+	Chao Lu and Yong-ming Li, The RF Interface Circuits Design of Contactless IC Cards, 2001.
 
 \hspace{-1cm} \textbf{Books:}
 
-\bibitem{book1} 
-	X. Li, Principles of Fuel Cells, Taylor and Francis Group, 2006.
+\bibitem{c1} 
+	Klaus Finkenzeller, RFID Handbook - Fundamentals and Applications in Contactless Smart Cards and Identification 3rd Edition, 2010.
 
-\bibitem{book2} 
-	M. H. Nehrir, C. Wang, Modeling and Control of Fuel Cells: Distributed Generation Applications, Wiley-IEEE Press, 2009.
+\hspace{-1cm} \textbf{Additional bibliography:}
+
+\bibitem{c2}  
+	Identification cards - Contactless integrated circuit(s) cards - Proximity cards, ISO/IEC Std. 14443.
+
+\bibitem{c7}
+	Identification cards - Test methods - Proximity cards, ISO/IEC 10373
+
+\bibitem{c8}
+	13.56 MHz RFID systems and antennas design guide, MELEXIS Microelectronic Integrated Systems, 2004.
+
+\bibitem{c9}
+	Dr. Youbok Lee, Ph.D., AN710 Antenna Circuit Design for RFID Applications, Microchip. 2003.
+
+\bibitem{mosis}
+	MOSIS Services, https://www.mosis.com/
+
+\bibitem{inti}
+	CMNB - INTI, http://www.inti.gob.ar/microynanoelectronica/cmnb.htm
+
+\bibitem{synopsys}
+	Synopsys, https://www.synopsys.com/
 
 %\end{enumerate}
 \end{thebibliography}{90}
